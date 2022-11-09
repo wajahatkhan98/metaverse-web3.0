@@ -1,0 +1,14 @@
+[
+  "event OwnershipTransferred(address indexed,address indexed)",
+  "function USDG() view returns (address)",
+  "function minting_fee() view returns (uint256)",
+  "function nft_fee() view returns (uint256)",
+  "function owner() view returns (address)",
+  "function platform() view returns (address)",
+  "function renounceOwnership()",
+  "function setMintingFee(uint256)",
+  "function setNFTFee(uint256)",
+  "function setPlatform(address)",
+  "function setUSDGaddress(address)",
+  "function transferOwnership(address)"
+]

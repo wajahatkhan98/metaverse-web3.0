@@ -1,0 +1,183 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+#img_logo
+{
+  width: 200px !important
+
+  
+}
+@media only screen and (max-width: 600px) {
+  #img_logo
+  {
+    width: 150px !important
+  }
+}
+ 
+.custom-shadow{
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.1) !important;
+
+}
+.my-custom-control {
+  color: rgb(0, 0, 0);
+  background: rgb(210, 208, 208);
+  padding: 8px;
+  border-radius: 4px;
+  margin: 10px -37px;
+
+   position: absolute;
+   pointer-events: auto;
+   z-index: 2;
+}
+
+.custom-shadow_wallet{
+   box-shadow: 0 9px 9px 0 rgba(22, 68, 154, 0.2), 0 14px 16px 0 rgba(64, 22, 164, 0.1) !important;
+  
+  }
+  
+
+.font-meri {
+font-family: 'Merriweather', serif;
+}
+.font-bitter {
+
+  /* font-family: 'Bitter', serif; */
+  font-family: 'Lato', sans-serif;
+  font-weight:  bold
+
+}
+
+.sidebar {
+  background-color: rgba(35, 55, 75, 0.9);
+  color: #fff;
+  padding: 6px 12px;
+  font-family: monospace;
+  z-index: 1;
+  position: absolute;
+  margin-left: 2px;
+  margin-top: 10px;
+  border-radius: 6px;
+  }
+  .sidebar_2 {
+    background-color: rgba(35, 55, 75, 0.9);
+    color: #fff;
+    padding: 6px 12px;
+    font-family: monospace;
+    z-index: 1;
+    position: absolute;
+    margin-left: 2px;
+    margin-top: 50px;
+    border-radius: 6px;
+    }
+    #user_icon
+    {
+      /* padding: 10px 5px ; */
+      background-color: transparent;
+
+    }
+    #user_icon:hover
+    {
+
+      border-radius: 40px;
+      background-color: rgb(220, 217, 217);
+    }
+  /* .mapboxgl-ctrl-logo {
+    display: none !important;
+} */
+
+a.mapboxgl-ctrl-logo
+{
+  width: 100px;
+    height: 40px;
+    margin: 0 0 -4px -4px;
+    display: block;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    overflow: hidden;
+    background-image: url('https://res.cloudinary.com/dot-pic/image/upload/v1659608604/logo_new_wssdhk.png');
+    background-size: 100px;
+
+    /* background-image: url('https://source.unsplash.com/random'); */
+    
+}
+.css-eglki6-MuiLinearProgress-root
+{
+  background-color: rgb(225, 223, 232) !important;
+
+}
+.css-5xe99f-MuiLinearProgress-bar1
+{
+  background-color: rgb(131 100 226) !important;
+}
+
+/* 
+ images for custom control
+ */
+ .mapboxgl-ctrl-pitchtoggle-3d {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+ICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkeT0iLjM1ZW0iIHN0eWxlPSJmb250LXNpemU6IDE0cHg7IGZvbnQtZmFtaWx5OiAnSGVsdmV0aWNhIE5ldWUnLEFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmOyBmb250LXdlaWdodDogYm9sZDsgdGV4dC1hbmNob3I6IG1pZGRsZTsiPjNEPC90ZXh0Pjwvc3ZnPg==);
+}
+
+.mapboxgl-ctrl-pitchtoggle-2d {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMCIgaGVpZ2h0PSIzMCI+ICAgIDx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBkeT0iLjM1ZW0iIHN0eWxlPSJmb250LXNpemU6IDE0cHg7IGZvbnQtZmFtaWx5OiAnSGVsdmV0aWNhIE5ldWUnLEFyaWFsLEhlbHZldGljYSxzYW5zLXNlcmlmOyBmb250LXdlaWdodDogYm9sZDsgdGV4dC1hbmNob3I6IG1pZGRsZTsiPjJEPC90ZXh0Pjwvc3ZnPg==);
+}
+
+
+/*  Stick Social Icon */
+.sticky-container{
+  
+  padding:0px;
+  margin:0px;
+  position:fixed;
+  right:-130px;
+  top:230px;
+  width:210px;
+  z-index: 1100;
+}
+.sticky li{
+  list-style-type:none;
+  background-color:#fff;
+  color:#efefef;
+  border: 1px solid rgb(86, 23, 131);
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  height:43px;
+  padding:0px;
+  margin:0px 0px 1px 0px;
+  -webkit-transition:all 0.25s ease-in-out;
+  -moz-transition:all 0.25s ease-in-out;
+  -o-transition:all 0.25s ease-in-out;
+  transition:all 0.25s ease-in-out;
+  cursor:pointer;
+}
+.sticky li:hover{
+  margin-left:-115px;
+}
+.sticky li img{
+  float:left;
+  margin:5px 4px;
+  margin-right:5px;
+}
+.sticky li p{
+  padding-top:5px;
+  margin:0px;
+  line-height:16px;
+  font-size:11px;
+}
+.sticky li p a{
+  text-decoration:none;
+  color:#2C3539;
+}
+.sticky li p a:hover{
+  text-decoration:underline;
+}
